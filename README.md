@@ -17,7 +17,7 @@ Machines | 2
 Periods  | 4
 
 
-<br/>##### *Note*: The maximum case possible for the parameters has been provided. This is because CPLEX's community edition was used. 
+####### *Note*: The maximum case possible for the parameters has been provided. This is because CPLEX's community edition was used. 
 
 *These results were obtained on a system with following configuration:*<br/>
 _CPU    -> Intel Core i5 - 8285U @ 1.60GHz<br/>
