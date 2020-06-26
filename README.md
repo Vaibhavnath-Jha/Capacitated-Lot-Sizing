@@ -1,14 +1,14 @@
 # Capacitated Lot Sizing
 Implementation of Capacitated Lot Sizing Problem as a Mixed Integer Linear Programming Problem using CPLEX's python library DOCPLEX
 
-##### *Special Case:* 
-<br/>This is one of the combination where Lagrangian Relaxed model gives lower bound and not the solution which is equal to optimal.
 
-##### *Model.lp:*
-<br/>Representation of the Problem in Linear Programming context.
+#### Attached Files
 
-##### *clsp_-with-_lagrangian_relaxation.mst*
-<br/>Solution of the Problem where:
+##### *Special Case.png*: This is one of the combination where Lagrangian Relaxed model gives lower bound and not the solution which is equal to optimal.
+
+##### File *Model.lp*: Representation of the Problem in Linear Programming context.
+
+##### File *clsp_-with-_lagrangian_relaxation.mst*: contains solution of the Problem where:
 
 Parameters | Number
 -----------|--------
