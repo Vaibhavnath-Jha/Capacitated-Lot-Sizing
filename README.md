@@ -4,11 +4,12 @@ Implementation of Capacitated Lot Sizing Problem as a Mixed Integer Linear Progr
 
 #### Attached Files
 
-##### *Special Case.png*: This is one of the combination where Lagrangian Relaxed model gives lower bound and not the solution which is equal to optimal.
-
 ##### File *Model.lp*: Representation of the Problem in Linear Programming context.
 
-##### File *clsp_-with-_lagrangian_relaxation.mst*: contains solution of the Problem where:
+##### File *capacitated_lot_sizing_problem.mst*: contains solution of the original problem where:
+
+##### File *clsp_-with-_lagrangian_relaxation.mst*: contains solution of the relaxed problem where:
+
 
 Parameters | Number
 -----------|--------
