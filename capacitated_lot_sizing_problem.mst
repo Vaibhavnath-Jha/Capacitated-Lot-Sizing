@@ -3,8 +3,8 @@
 <!-- Write level is WriteLevel.NonZeroDiscreteVars -->
 <CPLEXSolution version="1.0">
  <header
-   problemName="CLSP -with- Lagrangian Relaxation"
-   objectiveValue="8190.29"
+   problemName="Capacitated Lot Sizing Problem"
+   objectiveValue="8156.81"
   />
  <variables>
   <variable name="x_1_1_1" index="0" value="105"/>
@@ -13,10 +13,10 @@
   <variable name="x_2_1_3" index="10" value="281"/>
   <variable name="x_3_1_1" index="16" value="163"/>
   <variable name="x_3_1_4" index="19" value="101"/>
-  <variable name="x_4_1_1" index="24" value="62"/>
-  <variable name="x_4_1_3" index="26" value="171"/>
-  <variable name="x_5_1_1" index="32" value="79"/>
-  <variable name="x_5_1_2" index="33" value="140"/>
+  <variable name="x_4_1_1" index="24" value="61"/>
+  <variable name="x_4_1_3" index="26" value="172"/>
+  <variable name="x_5_1_1" index="32" value="54"/>
+  <variable name="x_5_1_2" index="33" value="165"/>
   <variable name="x_5_1_4" index="35" value="141"/>
   <variable name="x_6_1_1" index="40" value="254"/>
   <variable name="x_6_1_3" index="42" value="219"/>
@@ -24,12 +24,11 @@
   <variable name="x_7_2_3" index="54" value="136"/>
   <variable name="x_8_1_1" index="56" value="142"/>
   <variable name="x_9_2_1" index="68" value="51"/>
-  <variable name="x_9_2_2" index="69" value="208"/>
-  <variable name="x_9_2_3" index="70" value="103"/>
+  <variable name="x_9_2_2" index="69" value="166"/>
+  <variable name="x_9_2_3" index="70" value="145"/>
   <variable name="x_9_2_4" index="71" value="120"/>
-  <variable name="x_10_2_1" index="76" value="174"/>
-  <variable name="x_10_2_2" index="77" value="225"/>
-  <variable name="x_10_2_4" index="79" value="161"/>
+  <variable name="x_10_2_1" index="76" value="262"/>
+  <variable name="x_10_2_3" index="78" value="298"/>
   <variable name="y_1_1_1" index="80" value="1"/>
   <variable name="y_1_1_3" index="82" value="1"/>
   <variable name="y_2_1_1" index="88" value="1"/>
@@ -51,18 +50,15 @@
   <variable name="y_9_2_3" index="150" value="1"/>
   <variable name="y_9_2_4" index="151" value="1"/>
   <variable name="y_10_2_1" index="156" value="1"/>
-  <variable name="y_10_2_2" index="157" value="1"/>
-  <variable name="y_10_2_4" index="159" value="1"/>
+  <variable name="y_10_2_3" index="158" value="1"/>
   <variable name="s_1_1" index="160" value="96"/>
   <variable name="s_1_3" index="162" value="87"/>
   <variable name="s_2_1" index="164" value="21"/>
   <variable name="s_2_3" index="166" value="128"/>
   <variable name="s_3_1" index="168" value="116"/>
   <variable name="s_3_2" index="169" value="23"/>
-  <variable name="s_4_1" index="172" value="56"/>
-  <variable name="s_4_2" index="173" value="1"/>
+  <variable name="s_4_1" index="172" value="55"/>
   <variable name="s_4_3" index="174" value="84"/>
-  <variable name="s_5_1" index="176" value="25"/>
   <variable name="s_5_2" index="177" value="45"/>
   <variable name="s_6_1" index="180" value="104"/>
   <variable name="s_6_3" index="182" value="46"/>
@@ -71,7 +67,7 @@
   <variable name="s_8_1" index="188" value="120"/>
   <variable name="s_8_2" index="189" value="70"/>
   <variable name="s_8_3" index="190" value="1"/>
-  <variable name="s_9_2" index="193" value="42"/>
-  <variable name="s_10_2" index="197" value="137"/>
+  <variable name="s_10_1" index="196" value="88"/>
+  <variable name="s_10_3" index="198" value="161"/>
  </variables>
 </CPLEXSolution>
